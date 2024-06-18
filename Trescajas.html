@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Animated Fragment Slideshow | Codrops</title>
+		<meta name="description" content="A slider made with the Pieces library where slides are animated in a fragmented look." />
+		<meta name="keywords" content="slideshow, slider, pieces, fragments, animation, svg, canvas, javascript" />
+		<meta name="author" content="Luis Manuel for Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="https://tympanus.net/Tutorials/PiecesSlider/css/base.css" />
+		<link rel="stylesheet" type="text/css" href="https://tympanus.net/Tutorials/PiecesSlider/css/slider.css" />
+		<link rel="stylesheet" type="text/css" href="https://tympanus.net/Tutorials/PiecesSlider/pater/pater.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="demo-1">
+
+		<main>
+			<div class="content content--fixed">
+				<header class="codrops-header">
+					<div class="codrops-links">
+						<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/ScrollingLettersAnimation/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+						<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=33985" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
+					</div>
+					<h1 class="codrops-header__title">Esto fue solo hecho para que lo vieras, ¡sorpresa! No esperaba recibir respuesta, pero me alegra mucho poder hablar contigo de nuevo. ¿
+                        Puedo seguiar hablandote o incomodo? , y si no te molesta, ¿Como as estado todo este tiempo?
+                    </h1>
+				</header>
+				<!--a class="github" href="" title="Find this project on GitHub"><svg class="icon icon--github"><use xlink:href="#icon-github"></use></svg></a-->
+				<a class="github" href="" title="Find this project on GitHub"> 
+				</a>
+			</div>
+			<div class="content">
+				<!-- Pieces Slider -->
+				<div class="pieces-slider">
+					<!-- Each slide with corresponding image and text -->
+					<div class="pieces-slider__slide">
+						<img class="pieces-slider__image" src="https://images4.alphacoders.com/134/1345839.png" alt="">
+						<h2 class="pieces-slider__text">Tus gustos.</h2>
+					</div>
+					<div class="pieces-slider__slide">
+						<img class="pieces-slider__image" src="https://images2.alphacoders.com/135/thumb-1920-1350078.jpeg" alt="">
+						<h2 class="pieces-slider__text">El deporte y anime que ves.</h2>
+					</div>
+					<div class="pieces-slider__slide">
+						<img class="pieces-slider__image" src="https://e1.pxfuel.com/desktop-wallpaper/470/634/desktop-wallpaper-xdinary-heroes-reveal-jooyeon-s-ordinary-individual-teaser-for-happy-death-day-xdinary-heroes.jpg" alt="">
+						<h2 class="pieces-slider__text">La unica cancion que conosco.</h2>
+					</div>
+					<div class="pieces-slider__slide">
+						<img class="pieces-slider__image" src="https://tympanus.net/Tutorials/PiecesSlider/img/4.jpg" alt="">
+						<h2 class="pieces-slider__text">Esto consiste el saber como estas</h2>
+
+					</div>
+					<div class="pieces-slider__slide">
+						<img class="pieces-slider__image" src="https://tympanus.net/Tutorials/PiecesSlider/img/5.jpg" alt="">
+						<h2 class="pieces-slider__text">Y recalcar que eres malvada jsjs.</h2>
+					</div>
+					<!-- Canvas to draw the pieces -->
+					<canvas class="pieces-slider__canvas"></canvas>
+					<!-- Slider buttons: prev and next -->
+					<button class="pieces-slider__button pieces-slider__button--prev">prev</button>
+					<button class="pieces-slider__button pieces-slider__button--next">next</button>
+				</div>
+			</div>
+		</main>
+		<script src='https://tympanus.net/Tutorials/PiecesSlider/js/anime.min.js'></script>
+		<script src='https://tympanus.net/Tutorials/PiecesSlider/js/pieces.min.js'></script>
+		<script src='https://tympanus.net/Tutorials/PiecesSlider/js/demo.js'></script>
+	</body>
+</html>
